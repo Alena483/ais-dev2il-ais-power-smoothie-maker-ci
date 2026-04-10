@@ -7,7 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "pyjokes>=0.8.3",
     "rich>=14.2.0",
-    #"flask==0.5"
+    "flask==0.5"
 ]
 
 [dependency-groups]
