@@ -108,8 +108,7 @@ scan:
           echo "### 🛡️ Security Audit Results" >> $GITHUB_STEP_SUMMARY
           echo '```text' >> $GITHUB_STEP_SUMMARY
           uvx uv-secure --config=pyproject.toml | tee -a $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY 
-          
+          echo '```' >> $GITHUB_STEP_SUMMARY
 build-and-push:
     name: Build & Push Docker Image
     runs-on: ubuntu-latest
