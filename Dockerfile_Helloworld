@@ -1,0 +1,3 @@
+FROM alpine:latest
+ENTRYPOINT ["echo"]
+CMD ["Hello Docker World"]
